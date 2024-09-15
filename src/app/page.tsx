@@ -3,14 +3,14 @@ import Component from '@/components/ui/taken'
 function Deadprojects() {
   return (
     <div className='[background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_130%)]'>
-      <div className='h-screen w-full grid place-items-center'>
+      <div className='h-screen w-screen grid place-items-center'>
         <div>
-          <h1 className='text-8xl font-bold'>DeadProjects</h1>
+          <h1 className='md:text-8xl text-4xl font-bold'>DeadProjects</h1>
           <h2 className='text-sm'> Jhon me debe empanadas 😔
           </h2>
         </div>
       </div>
-      <div className="h-screen w-full grid place-items-center grid-cols-3">
+      <div className="h-screen w-screen grid place-items-center md:grid-cols-2 xl:grid-cols-3">
         <Component 
         title='Huevo de Esis'
         imageUrl='https://preview.redd.it/8t91ofbs50t41.png?auto=webp&s=950847e23c9a90677aa068c0c9bcf0d58a8a10e5'
